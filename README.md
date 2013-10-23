@@ -1,5 +1,5 @@
-A collection of code I've written for implementations of interesting algorithms and data structures.
-====================================================================================================
+A collection of code I've written for practicing algorithms and data structures.
+================================================================================
 
 Author: Shuo Yang
 
