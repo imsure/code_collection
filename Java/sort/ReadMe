@@ -1,0 +1,19 @@
+The sorting program I wrote is capable of applying insertion sort,
+merge sort, heap sort and quick sort to data set contains intergers.
+
+To get help of how to use the program:
+java -jar MySort.jar -h
+
+Here are some examples:
+1. To run insertion sort against ds_random.txt,
+java -jar MySort.jar i ds_random.txt
+
+2. To run the four sort algorithm together:
+java -jar MySort.jar ihmq ds_random.txt
+
+The outputs required by the assignment will be generated under output folder.
+Beyond the required output, the program is also caplable of generating a combined
+statistics report file. For example, for the example 2 above, there will be a file
+named ihmq_ds_random.txt.combined generated in which stats displayed for all 4 sort
+algorithm and sorted ascendingly by exection time to make it easier to compare and
+draw conclusion.
