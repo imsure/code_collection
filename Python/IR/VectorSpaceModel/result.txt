@@ -1,0 +1,187 @@
+imsure@ubuntu:~/Programming/py/IR/VectorSpaceModel$ ./IR.py
+
+Please enter a query:
+quick brown vex zebras
+
+THIS IS A SIMPLE VECTOR SPACE MODEL INFORMATION RETRIEVAL SYSTEM.
+
+Document source type: local
+Document location: /home/imsure/Programming/py/IR/VectorSpaceModel/docs
+
+--------------------------------------------------
+TERM-WEIGHT TABLE
+(each column is sorted by document names)
+(each row is sorted by terms)
+--------------------------------------------------
+
+TERM       D1.txt        D2.txt        D3.txt
+-----------------------------------------------
+a          0.79          0.00          0.00
+brown      1.58          0.00          0.00
+bud        0.00          1.58          0.00
+daft       0.00          0.00          1.58
+dog        0.79          0.00          0.00
+for        0.00          1.58          0.00
+fox        0.79          0.00          0.00
+how        0.00          0.00          1.58
+jigs       0.00          1.58          0.00
+jumping    0.00          0.00          1.58
+jumps      0.79          0.00          0.00
+lazy       0.79          0.00          0.00
+nymph      0.00          1.58          0.00
+over       0.79          0.00          0.00
+quick      0.29          0.58          0.00
+quickly    0.00          0.00          1.58
+the        0.79          0.00          0.00
+vex        0.00          0.58          0.58
+waltz      0.00          1.58          0.00
+zebras     0.00          0.00          1.58
+-----------------------------------------------
+LENGTH     2.64          3.64          3.59
+
+RANK       DOC        SIMILARITY
+0          D1.txt     0.42      
+1          D3.txt     0.33      
+2          D2.txt     0.08      
+
+Please enter a query:
+quick brown vex zebras
+
+THIS IS A SIMPLE VECTOR SPACE MODEL INFORMATION RETRIEVAL SYSTEM.
+
+Document source type: local
+Document location: /home/imsure/Programming/py/IR/VectorSpaceModel/docs
+
+--------------------------------------------------
+TERM-WEIGHT TABLE
+(each column is sorted by document names)
+(each row is sorted by terms)
+--------------------------------------------------
+
+TERM       D1.txt        D2.txt        D3.txt
+-----------------------------------------------
+a          0.79          0.00          0.00
+brown      1.58          0.00          0.00
+bud        0.00          1.58          0.00
+daft       0.00          0.00          1.58
+dog        0.79          0.00          0.00
+for        0.00          1.58          0.00
+fox        0.79          0.00          0.00
+how        0.00          0.00          1.58
+jigs       0.00          1.58          0.00
+jumping    0.00          0.00          1.58
+jumps      0.79          0.00          0.00
+lazy       0.79          0.00          0.00
+nymph      0.00          1.58          0.00
+over       0.79          0.00          0.00
+quick      0.29          0.58          0.00
+quickly    0.00          0.00          1.58
+the        0.79          0.00          0.00
+vex        0.00          0.58          0.58
+waltz      0.00          1.58          0.00
+zebras     0.00          0.00          1.58
+-----------------------------------------------
+LENGTH     2.64          3.64          3.59
+
+RANK       DOC        SIMILARITY
+0          D1.txt     0.42      
+1          D3.txt     0.33      
+2          D2.txt     0.08
+
+Please enter a query:
+quick brown vex lion
+FIND NEW TERMS: ['lion']
+
+THIS IS A SIMPLE VECTOR SPACE MODEL INFORMATION RETRIEVAL SYSTEM.
+
+Document source type: local
+Document location: /home/imsure/Programming/py/IR/VectorSpaceModel/docs
+
+--------------------------------------------------
+TERM-WEIGHT TABLE
+(each column is sorted by document names)
+(each row is sorted by terms)
+--------------------------------------------------
+
+TERM       D1.txt        D2.txt        D3.txt
+-----------------------------------------------
+a          0.79          0.00          0.00
+brown      1.58          0.00          0.00
+bud        0.00          1.58          0.00
+daft       0.00          0.00          1.58
+dog        0.79          0.00          0.00
+for        0.00          1.58          0.00
+fox        0.79          0.00          0.00
+how        0.00          0.00          1.58
+jigs       0.00          1.58          0.00
+jumping    0.00          0.00          1.58
+jumps      0.79          0.00          0.00
+lazy       0.79          0.00          0.00
+nymph      0.00          1.58          0.00
+over       0.79          0.00          0.00
+quick      0.29          0.58          0.00
+quickly    0.00          0.00          1.58
+the        0.79          0.00          0.00
+vex        0.00          0.58          0.58
+waltz      0.00          1.58          0.00
+zebras     0.00          0.00          1.58
+lion       0.00          0.00          0.00
+-----------------------------------------------
+LENGTH     2.64          3.64          3.59
+
+RANK       DOC        SIMILARITY
+0          D1.txt     0.32      
+1          D2.txt     0.06      
+2          D3.txt     0.03      
+
+Please enter a query:
+quick brown vex lion
+
+THIS IS A SIMPLE VECTOR SPACE MODEL INFORMATION RETRIEVAL SYSTEM.
+
+Document source type: local
+Document location: /home/imsure/Programming/py/IR/VectorSpaceModel/docs
+
+--------------------------------------------------
+TERM-WEIGHT TABLE
+(each column is sorted by document names)
+(each row is sorted by terms)
+--------------------------------------------------
+
+TERM       D1.txt        D2.txt        D3.txt
+-----------------------------------------------
+a          0.79          0.00          0.00
+brown      1.58          0.00          0.00
+bud        0.00          1.58          0.00
+daft       0.00          0.00          1.58
+dog        0.79          0.00          0.00
+for        0.00          1.58          0.00
+fox        0.79          0.00          0.00
+how        0.00          0.00          1.58
+jigs       0.00          1.58          0.00
+jumping    0.00          0.00          1.58
+jumps      0.79          0.00          0.00
+lazy       0.79          0.00          0.00
+nymph      0.00          1.58          0.00
+over       0.79          0.00          0.00
+quick      0.29          0.58          0.00
+quickly    0.00          0.00          1.58
+the        0.79          0.00          0.00
+vex        0.00          0.58          0.58
+waltz      0.00          1.58          0.00
+zebras     0.00          0.00          1.58
+lion       0.00          0.00          0.00
+-----------------------------------------------
+LENGTH     2.64          3.64          3.59
+
+RANK       DOC        SIMILARITY
+0          D1.txt     0.32      
+1          D2.txt     0.06      
+2          D3.txt     0.03      
+
+Please enter a query:
+q
+
+Goodbye!
+imsure@ubuntu:~/Programming/py/IR/VectorSpaceModel$ 
+
